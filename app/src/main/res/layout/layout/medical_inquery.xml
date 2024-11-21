@@ -8,19 +8,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#000000">
+        android:background="#1EB551">
 
 
-
-        <Button
+        <ImageView
             android:id="@+id/bbtn"
             android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#000000"
+            android:layout_height="match_parent"
+            android:backgroundTint="#1EB551"
             android:padding="1dp"
             android:text="뒤"
             android:textColor="#FFFFFF"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:src="@drawable/ic_back"/>
 
         <TextView
             android:layout_width="0dp"
@@ -51,13 +51,18 @@
         android:id="@+id/nbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="관련 기사 보기" />
+        android:textSize="30dp"
+        android:text="관련 기사 보기"
+        android:textColor="#1EB551"
+        android:backgroundTint="#FFFFFF"/>
 
     <Button
         android:id="@+id/nbtn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="부작용 기사 보기" />
+        android:textSize="30dp"
+        android:text="부작용 기사 보기"
+        android:backgroundTint="#1EB551"/>
 
 
 </LinearLayout>

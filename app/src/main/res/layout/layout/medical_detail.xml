@@ -8,16 +8,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#000000">
-        <Button
+        android:background="#1EB551">
+        <ImageView
             android:id="@+id/bbtn2"
             android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#000000"
+            android:layout_height="match_parent"
+            android:backgroundTint="#1EB551"
             android:padding="1dp"
             android:text="뒤"
             android:textColor="#FFFFFF"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:src="@drawable/ic_back"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -44,48 +45,60 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="기본 정보"/>
+        android:text="기본 정보"
+        android:textColor="#1EB551"
+        android:backgroundTint="#FFFFFF"/>
     <Button
         android:id="@+id/inbtn2"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="효능 효과"/>
+        android:text="효능 효과"
+        android:backgroundTint="#1EB551"/>
     <Button
         android:id="@+id/inbtn3"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="용법 용량"/>
+        android:text="용법 용량"
+        android:textColor="#1EB551"
+        android:backgroundTint="#FFFFFF"/>
     <Button
         android:id="@+id/inbtn4"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="주의 사항"/>
+        android:text="주의 사항"
+        android:backgroundTint="#1EB551"/>
     <Button
         android:id="@+id/inbtn5"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="제품 모양"/>
+        android:text="제품 모양"
+        android:textColor="#1EB551"
+        android:backgroundTint="#FFFFFF"/>
     <Button
         android:id="@+id/inbtn6"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="저장 방법"/>
+        android:text="저장 방법"
+        android:backgroundTint="#1EB551"/>
     <Button
         android:id="@+id/inbtn7"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="유효 기간"/>
+        android:text="유효 기간"
+        android:textColor="#1EB551"
+        android:backgroundTint="#FFFFFF"/>
     <Button
         android:id="@+id/inbtn8"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:textSize="30dp"
-        android:text="원료 및 성분"/>
+        android:text="원료 및 성분"
+        android:backgroundTint="#1EB551"/>
 
 </LinearLayout>
